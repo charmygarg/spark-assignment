@@ -545,7 +545,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1491810559479" />
+    <option name="lastUpdateTimestamp" value="1491999385455" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -573,7 +573,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/../scala-solr-akkahttp" value="1490866290996" />
-        <entry key="$PROJECT_DIR$" value="1491809296433" />
+        <entry key="$PROJECT_DIR$" value="1491999270177" />
         <entry key="$PROJECT_DIR$/../../play-assignment3/play-assignment3" value="1489302486567" />
         <entry key="$PROJECT_DIR$/../../twitter-assignment-master" value="1486324240000" />
         <entry key="$USER_HOME$/Downloads/kip2017scalasession03assignment430january2017/combinator-parsing-template" value="1485625302000" />
