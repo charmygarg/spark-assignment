@@ -1,0 +1,528 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.scala-lang:scala-compiler:(2.11.0, 2.11.6)
+[warn]  * org.scala-lang:scala-library:(2.11.8, 2.11.6)
+[warn]  * org.scala-lang:scala-reflect:(2.11.7, 2.11.6)
+[warn]  * org.scala-lang.modules:scala-parser-combinators_2.11:(1.0.1, 1.0.3)
+[warn]  * org.scala-lang.modules:scala-xml_2.11:(1.0.2, 1.0.3)
+[debug] :: resolving dependencies :: default#spark-assignment$sources_2.11;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#spark-assignment$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-core_2.11;2.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9cd3762
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-core_2.11;2.0.0
+[debug] 	found org.apache.spark#spark-core_2.11;2.0.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-core_2.11;2.0.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.avro#avro-mapred;1.7.7 [compile->default(compile)]
+[info] Resolving org.apache.avro#avro-mapred;1.7.7 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@232f4e33
+[debug] sbt-chain: module revision found in cache: org.apache.avro#avro-mapred;1.7.7
+[debug] 	found org.apache.avro#avro-mapred;1.7.7 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.avro#avro-mapred;1.7.7 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.avro#avro-mapred;1.7.7 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.avro#avro-mapred;1.7.7 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.avro#avro-ipc;1.7.7 [compile->default(compile)]
+[info] Resolving org.apache.avro#avro-ipc;1.7.7 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63b8d1b
+[debug] sbt-chain: module revision found in cache: org.apache.avro#avro-ipc;1.7.7
+[debug] 	found org.apache.avro#avro-ipc;1.7.7 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.avro#avro-ipc;1.7.7 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.avro#avro-ipc;1.7.7 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.avro#avro-ipc;1.7.7 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.avro#avro;1.7.7 [compile->default(compile)]
+[info] Resolving org.apache.avro#avro;1.7.7 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d501535
+[debug] sbt-chain: module revision found in cache: org.apache.avro#avro;1.7.7
+[debug] 	found org.apache.avro#avro;1.7.7 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.avro#avro;1.7.7 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.avro#avro;1.7.7 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.avro#avro;1.7.7 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->default(compile)]
+[info] Resolving org.codehaus.jackson#jackson-core-asl;1.9.13 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71f0220e
+[debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-core-asl;1.9.13
+[debug] 	found org.codehaus.jackson#jackson-core-asl;1.9.13 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->default(compile)]
+[info] Resolving org.codehaus.jackson#jackson-mapper-asl;1.9.13 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a75e454
+[debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-mapper-asl;1.9.13
+[debug] 	found org.codehaus.jackson#jackson-mapper-asl;1.9.13 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
+[info] Resolving org.apache.commons#commons-compress;1.4.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@85d33f
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.4.1
+[debug] 	found org.apache.commons#commons-compress;1.4.1 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-compress;1.4.1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.tukaani#xz;1.0 [compile->default(compile)]
+[info] Resolving org.tukaani#xz;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38827399
+[debug] sbt-chain: module revision found in cache: org.tukaani#xz;1.0
+[debug] 	found org.tukaani#xz;1.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.tukaani#xz;1.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.tukaani#xz;1.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.tukaani#xz;1.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.twitter#chill_2.11;0.8.0 [compile->default(compile)]
+[info] Resolving com.twitter#chill_2.11;0.8.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6204f61d
+[debug] sbt-chain: module revision found in cache: com.twitter#chill_2.11;0.8.0
+[debug] 	found com.twitter#chill_2.11;0.8.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.twitter#chill_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.twitter#chill_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.twitter#chill_2.11;0.8.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.twitter#chill-java;0.8.0 [compile->default(compile)]
+[info] Resolving com.twitter#chill-java;0.8.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b9f12a6
+[debug] sbt-chain: module revision found in cache: com.twitter#chill-java;0.8.0
+[debug] 	found com.twitter#chill-java;0.8.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.twitter#chill-java;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.twitter#chill-java;0.8.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.twitter#chill-java;0.8.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.esotericsoftware#kryo-shaded;3.0.3 [compile->default(compile)]
+[info] Resolving com.esotericsoftware#kryo-shaded;3.0.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22b7f2b4
+[debug] sbt-chain: module revision found in cache: com.esotericsoftware#kryo-shaded;3.0.3
+[debug] 	found com.esotericsoftware#kryo-shaded;3.0.3 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.esotericsoftware#kryo-shaded;3.0.3 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.esotericsoftware#kryo-shaded;3.0.3 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.esotericsoftware#kryo-shaded;3.0.3 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.esotericsoftware#minlog;1.3.0 [compile->default(compile)]
+[info] Resolving com.esotericsoftware#minlog;1.3.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e39baf3
+[debug] sbt-chain: module revision found in cache: com.esotericsoftware#minlog;1.3.0
+[debug] 	found com.esotericsoftware#minlog;1.3.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.esotericsoftware#minlog;1.3.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.esotericsoftware#minlog;1.3.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.esotericsoftware#minlog;1.3.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->default(compile)]
+[info] Resolving org.objenesis#objenesis;2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@266c5264
+[debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;2.1
+[debug] 	found org.objenesis#objenesis;2.1 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.objenesis#objenesis;2.1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->default(compile)]
+[info] Resolving org.apache.xbean#xbean-asm5-shaded;4.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@299daad7
+[debug] sbt-chain: module revision found in cache: org.apache.xbean#xbean-asm5-shaded;4.4
+[debug] 	found org.apache.xbean#xbean-asm5-shaded;4.4 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ce69796
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-common;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-common;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-common;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-annotations;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44b3493a
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-annotations;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-annotations;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-annotations;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-cli#commons-cli;1.2 [compile->default(compile)]
+[info] Resolving commons-cli#commons-cli;1.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17c5ca39
+[info] Resolving commons-cli#commons-cli;1.2 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@17c5ca39
+[debug] 		tried /home/knodus/.ivy2/local/commons-cli/commons-cli/1.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for commons-cli#commons-cli;1.2
+[debug] 		tried https://jcenter.bintray.com/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+[debug] 	jcenter: found md file for commons-cli#commons-cli;1.2
+[debug] 		=> https://jcenter.bintray.com/commons-cli/commons-cli/1.2/commons-cli-1.2.pom (1.2)
+[debug] downloading https://jcenter.bintray.com/commons-cli/commons-cli/1.2/commons-cli-1.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/commons-cli/commons-cli/1.2/commons-cli-1.2.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+[debug] 	[SUCCESSFUL ] commons-cli#commons-cli;1.2!commons-cli.pom(pom.original) (1495ms)
+[info] Resolving org.apache.commons#commons-parent;11 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;11 {}
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-parent;11
+[debug] 	found commons-cli#commons-cli;1.2 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-cli#commons-cli;1.2 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-cli#commons-cli;1.2 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-cli#commons-cli;1.2 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-math;2.1 [compile->default(compile)]
+[info] Resolving org.apache.commons#commons-math;2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@793ace81
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math;2.1
+[debug] 	found org.apache.commons#commons-math;2.1 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-math;2.1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-math;2.1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-math;2.1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)]
+[info] Resolving commons-httpclient#commons-httpclient;3.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c0ce752
+[debug] sbt-chain: module revision found in cache: commons-httpclient#commons-httpclient;3.1
+[debug] 	found commons-httpclient#commons-httpclient;3.1 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-httpclient#commons-httpclient;3.1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-codec#commons-codec;1.4 [compile->default(compile)]
+[info] Resolving commons-codec#commons-codec;1.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9dae22c
+[debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.4
+[debug] 	found commons-codec#commons-codec;1.4 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-codec#commons-codec;1.4 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-codec#commons-codec;1.4 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-codec#commons-codec;1.4 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-io#commons-io;2.1 [compile->default(compile)]
+[info] Resolving commons-io#commons-io;2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49672250
+[info] Resolving commons-io#commons-io;2.1 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@49672250
+[debug] 		tried /home/knodus/.ivy2/local/commons-io/commons-io/2.1/ivys/ivy.xml
+[debug] 	local: no ivy file found for commons-io#commons-io;2.1
+[debug] 		tried https://jcenter.bintray.com/commons-io/commons-io/2.1/commons-io-2.1.pom
+[debug] 	jcenter: found md file for commons-io#commons-io;2.1
+[debug] 		=> https://jcenter.bintray.com/commons-io/commons-io/2.1/commons-io-2.1.pom (2.1)
+[debug] downloading https://jcenter.bintray.com/commons-io/commons-io/2.1/commons-io-2.1.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/commons-io/commons-io/2.1/commons-io-2.1.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/commons-io/commons-io/2.1/commons-io-2.1.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/commons-io/commons-io/2.1/commons-io-2.1.pom
+[debug] 	[SUCCESSFUL ] commons-io#commons-io;2.1!commons-io.pom(pom.original) (1477ms)
+[info] Resolving org.apache.commons#commons-parent;22 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;22 {}
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-parent;22
+[debug] 	found commons-io#commons-io;2.1 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-io#commons-io;2.1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-io#commons-io;2.1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-io#commons-io;2.1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->log4j#log4j;1.2.17 [compile->default(compile)]
+[info] Resolving log4j#log4j;1.2.17 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f3b894f
+[debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.17
+[debug] 	found log4j#log4j;1.2.17 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->log4j#log4j;1.2.17 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->log4j#log4j;1.2.17 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->log4j#log4j;1.2.17 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-lang#commons-lang;2.5 [compile->default(compile)]
+[info] Resolving commons-lang#commons-lang;2.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d072589
+[debug] sbt-chain: module revision found in cache: commons-lang#commons-lang;2.5
+[debug] 	found commons-lang#commons-lang;2.5 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-lang#commons-lang;2.5 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-lang#commons-lang;2.5 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-lang#commons-lang;2.5 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-configuration#commons-configuration;1.6 [compile->default(compile)]
+[info] Resolving commons-configuration#commons-configuration;1.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26638bf2
+[debug] sbt-chain: module revision found in cache: commons-configuration#commons-configuration;1.6
+[debug] 	found commons-configuration#commons-configuration;1.6 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-configuration#commons-configuration;1.6 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-configuration#commons-configuration;1.6 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-configuration#commons-configuration;1.6 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [compile->default(compile)]
+[info] Resolving commons-collections#commons-collections;3.2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@689b6f33
+[debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
+[debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-collections#commons-collections;3.2.1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-digester#commons-digester;1.8 [compile->default(compile)]
+[info] Resolving commons-digester#commons-digester;1.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@597015e3
+[debug] sbt-chain: module revision found in cache: commons-digester#commons-digester;1.8
+[debug] 	found commons-digester#commons-digester;1.8 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-digester#commons-digester;1.8 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-digester#commons-digester;1.8 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-digester#commons-digester;1.8 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->default(compile)]
+[info] Resolving commons-beanutils#commons-beanutils;1.7.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e4f938
+[debug] sbt-chain: module revision found in cache: commons-beanutils#commons-beanutils;1.7.0
+[debug] 	found commons-beanutils#commons-beanutils;1.7.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-beanutils#commons-beanutils;1.7.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)]
+[info] Resolving com.google.protobuf#protobuf-java;2.5.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e96986
+[debug] sbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0
+[debug] 	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-auth;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6872344a
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-auth;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-auth;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-auth;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-hdfs;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@416bead4
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-hdfs;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-hdfs;2.2.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-hdfs;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->default(compile)]
+[info] Resolving org.mortbay.jetty#jetty-util;6.1.26 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@223e8ea1
+[debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jetty-util;6.1.26
+[debug] 	found org.mortbay.jetty#jetty-util;6.1.26 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.mortbay.jetty#jetty-util;6.1.26 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48c1892b
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@48c1892b
+[debug] 		tried /home/knodus/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-app/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.pom(pom.original) (1570ms)
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c504d97
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3c504d97
+[debug] 		tried /home/knodus/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-common/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.pom(pom.original) (1656ms)
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b378a3a
+[info] Resolving org.apache.hadoop#hadoop-yarn-common;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1b378a3a
+[debug] 		tried /home/knodus/.ivy2/local/org.apache.hadoop/hadoop-yarn-common/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-common;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-yarn-common;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.pom(pom.original) (1516ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-yarn-common;2.2.0 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-common;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-api;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@532912e5
+[info] Resolving org.apache.hadoop#hadoop-yarn-api;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@532912e5
+[debug] 		tried /home/knodus/.ivy2/local/org.apache.hadoop/hadoop-yarn-api/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-api;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-yarn-api;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.pom(pom.original) (1516ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-yarn-api;2.2.0 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-api;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.google.inject#guice;3.0 [compile->default(compile)]
+[info] Resolving com.google.inject#guice;3.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e0c7a83
+[debug] sbt-chain: module revision found in cache: com.google.inject#guice;3.0
+[debug] 	found com.google.inject#guice;3.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.google.inject#guice;3.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.google.inject#guice;3.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.google.inject#guice;3.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->default(compile)]
+[info] Resolving javax.inject#javax.inject;1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c65cd9e
+[debug] sbt-chain: module revision found in cache: javax.inject#javax.inject;1
+[debug] 	found javax.inject#javax.inject;1 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.inject#javax.inject;1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->default(compile)]
+[info] Resolving aopalliance#aopalliance;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bbe9d1
+[debug] sbt-chain: module revision found in cache: aopalliance#aopalliance;1.0
+[debug] 	found aopalliance#aopalliance;1.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->aopalliance#aopalliance;1.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->default(compile)]
+[info] Resolving org.sonatype.sisu.inject#cglib;2.2.1-v20090111 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3759bef6
+[debug] sbt-chain: module revision found in cache: org.sonatype.sisu.inject#cglib;2.2.1-v20090111
+[debug] 	found org.sonatype.sisu.inject#cglib;2.2.1-v20090111 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.sonatype.sisu.inject#cglib;2.2.1-v20090111 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3be5435f
+[info] Resolving org.apache.hadoop#hadoop-yarn-client;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3be5435f
+[debug] 		tried /home/knodus/.ivy2/local/org.apache.hadoop/hadoop-yarn-client/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-client;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-yarn-client;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-client;2.2.0!hadoop-yarn-client.pom(pom.original) (1485ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-yarn-client;2.2.0 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-client;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2018c364
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@2018c364
+[debug] 		tried /home/knodus/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-core/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0!hadoop-mapreduce-client-core.pom(pom.original) (1570ms)
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-server-common;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55a5621e
+[info] Resolving org.apache.hadoop#hadoop-yarn-server-common;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@55a5621e
+[debug] 		tried /home/knodus/.ivy2/local/org.apache.hadoop/hadoop-yarn-server-common/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-server-common;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-yarn-server-common;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.pom(pom.original) (1486ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}
+[info] Resolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}
+[debug] 		tried /home/knodus/.ivy2/local/org.apache.hadoop/hadoop-yarn-server/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-server;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-yarn-server;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server;2.2.0!hadoop-yarn-server.pom(pom.original) (1502ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn;2.2.0
+[debug] 		tried /home/knodus/.ivy2/local/org.apache.hadoop/hadoop-yarn-server/2.2.0/jars/hadoop-yarn-server.jar
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server/2.2.0/hadoop-yarn-server-2.2.0.jar
+[debug] 	found org.apache.hadoop#hadoop-yarn-server-common;2.2.0 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-common;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b5f26a
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@4b5f26a
+[debug] 		tried /home/knodus/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-shuffle/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.pom(pom.original) (1568ms)
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@535cb5b1
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@535cb5b1
+[debug] 		tried /home/knodus/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-jobclient/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom.sha1
