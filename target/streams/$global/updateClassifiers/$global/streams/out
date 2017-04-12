@@ -526,3 +526,652 @@
 [debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom ...
 [debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom
 [debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.pom(pom.original) (1602ms)
+[info] Resolving org.apache.hadoop#hadoop-mapreduce-client;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-mapreduce-client;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-mapreduce-client;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->default(compile)]
+[info] Resolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7adc7596
+[info] Resolving org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@7adc7596
+[debug] 		tried /home/knodus/.ivy2/local/org.apache.hadoop/hadoop-yarn-server-nodemanager/2.2.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0
+[debug] 		tried https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom
+[debug] 	jcenter: found md file for org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0
+[debug] 		=> https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom (2.2.0)
+[debug] downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom
+[debug] 	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.pom(pom.original) (1618ms)
+[info] Resolving org.apache.hadoop#hadoop-yarn-server;2.2.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.apache.hadoop#hadoop-yarn-server;2.2.0 {}
+[debug] sbt-chain: module revision found in cache: org.apache.hadoop#hadoop-yarn-server;2.2.0
+[debug] 	found org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-launcher_2.11;2.0.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-launcher_2.11;2.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33c17e32
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-launcher_2.11;2.0.0
+[debug] 	found org.apache.spark#spark-launcher_2.11;2.0.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-launcher_2.11;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-launcher_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-launcher_2.11;2.0.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-tags_2.11;2.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cc6babf
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-tags_2.11;2.0.0
+[debug] 	found org.apache.spark#spark-tags_2.11;2.0.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-tags_2.11;2.0.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [compile->default(compile)]
+[info] Resolving org.scalatest#scalatest_2.11;2.2.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b0e9666
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.6
+[debug] 	found org.scalatest#scalatest_2.11;2.2.6 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.6 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7380889d
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
+[debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
+[debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d82ec55
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.spark-project.spark#unused;1.0.0 [compile->default(compile)]
+[info] Resolving org.spark-project.spark#unused;1.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4609f649
+[debug] sbt-chain: module revision found in cache: org.spark-project.spark#unused;1.0.0
+[debug] 	found org.spark-project.spark#unused;1.0.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.spark-project.spark#unused;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.spark-project.spark#unused;1.0.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.spark-project.spark#unused;1.0.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-network-common_2.11;2.0.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-network-common_2.11;2.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ffddbe1
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-network-common_2.11;2.0.0
+[debug] 	found org.apache.spark#spark-network-common_2.11;2.0.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-network-common_2.11;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-network-common_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-network-common_2.11;2.0.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->io.netty#netty-all;4.0.29.Final [compile->default(compile)]
+[info] Resolving io.netty#netty-all;4.0.29.Final ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7414141d
+[debug] sbt-chain: module revision found in cache: io.netty#netty-all;4.0.29.Final
+[debug] 	found io.netty#netty-all;4.0.29.Final in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->io.netty#netty-all;4.0.29.Final [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->io.netty#netty-all;4.0.29.Final [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->io.netty#netty-all;4.0.29.Final [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-network-shuffle_2.11;2.0.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-network-shuffle_2.11;2.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23bec158
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-network-shuffle_2.11;2.0.0
+[debug] 	found org.apache.spark#spark-network-shuffle_2.11;2.0.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-network-shuffle_2.11;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-network-shuffle_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-network-shuffle_2.11;2.0.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->default(compile)]
+[info] Resolving org.fusesource.leveldbjni#leveldbjni-all;1.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6524b0b0
+[debug] sbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-all;1.8
+[debug] 	found org.fusesource.leveldbjni#leveldbjni-all;1.8 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.8 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->default(compile)]
+[info] Resolving com.fasterxml.jackson.core#jackson-databind;2.6.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29d2b367
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.6.5
+[debug] 	found com.fasterxml.jackson.core#jackson-databind;2.6.5 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-databind;2.6.5 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.5 [compile->default(compile)]
+[info] Resolving com.fasterxml.jackson.core#jackson-core;2.6.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5048ec28
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.6.5
+[debug] 	found com.fasterxml.jackson.core#jackson-core;2.6.5 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-core;2.6.5 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.6.5 [compile->default(compile)]
+[info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.6.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b1ea8af
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.6.5
+[debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.6.5 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.6.5 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.6.5 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.fasterxml.jackson.core#jackson-annotations;2.6.5 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->default(compile)]
+[info] Resolving org.apache.spark#spark-unsafe_2.11;2.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@644876f2
+[debug] sbt-chain: module revision found in cache: org.apache.spark#spark-unsafe_2.11;2.0.0
+[debug] 	found org.apache.spark#spark-unsafe_2.11;2.0.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.spark#spark-unsafe_2.11;2.0.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->default(compile)]
+[info] Resolving net.java.dev.jets3t#jets3t;0.7.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c37dff0
+[debug] sbt-chain: module revision found in cache: net.java.dev.jets3t#jets3t;0.7.1
+[debug] 	found net.java.dev.jets3t#jets3t;0.7.1 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->net.java.dev.jets3t#jets3t;0.7.1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->default(compile)]
+[info] Resolving org.apache.curator#curator-recipes;2.4.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5630e59f
+[debug] sbt-chain: module revision found in cache: org.apache.curator#curator-recipes;2.4.0
+[debug] 	found org.apache.curator#curator-recipes;2.4.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.curator#curator-recipes;2.4.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.curator#curator-framework;2.4.0 [compile->default(compile)]
+[info] Resolving org.apache.curator#curator-framework;2.4.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7367d9ad
+[debug] sbt-chain: module revision found in cache: org.apache.curator#curator-framework;2.4.0
+[debug] 	found org.apache.curator#curator-framework;2.4.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.curator#curator-framework;2.4.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.curator#curator-framework;2.4.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.curator#curator-framework;2.4.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.curator#curator-client;2.4.0 [compile->default(compile)]
+[info] Resolving org.apache.curator#curator-client;2.4.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4429313c
+[debug] sbt-chain: module revision found in cache: org.apache.curator#curator-client;2.4.0
+[debug] 	found org.apache.curator#curator-client;2.4.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.curator#curator-client;2.4.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.curator#curator-client;2.4.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.curator#curator-client;2.4.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->default(compile)]
+[info] Resolving org.apache.zookeeper#zookeeper;3.4.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cda762c
+[debug] sbt-chain: module revision found in cache: org.apache.zookeeper#zookeeper;3.4.5
+[debug] 	found org.apache.zookeeper#zookeeper;3.4.5 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.zookeeper#zookeeper;3.4.5 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.google.guava#guava;14.0.1 [compile->default(compile)]
+[info] Resolving com.google.guava#guava;14.0.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23abf013
+[debug] sbt-chain: module revision found in cache: com.google.guava#guava;14.0.1
+[debug] 	found com.google.guava#guava;14.0.1 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.google.guava#guava;14.0.1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.google.guava#guava;14.0.1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.google.guava#guava;14.0.1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.servlet#javax.servlet-api;3.1.0 [compile->default(compile)]
+[info] Resolving javax.servlet#javax.servlet-api;3.1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ae264ab
+[debug] sbt-chain: module revision found in cache: javax.servlet#javax.servlet-api;3.1.0
+[debug] 	found javax.servlet#javax.servlet-api;3.1.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.servlet#javax.servlet-api;3.1.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.servlet#javax.servlet-api;3.1.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.servlet#javax.servlet-api;3.1.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->default(compile)]
+[info] Resolving org.apache.commons#commons-lang3;3.3.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5578b359
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.3.2
+[debug] 	found org.apache.commons#commons-lang3;3.3.2 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-lang3;3.3.2 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-math3;3.4.1 [compile->default(compile)]
+[info] Resolving org.apache.commons#commons-math3;3.4.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52def1b3
+[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.4.1
+[debug] 	found org.apache.commons#commons-math3;3.4.1 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-math3;3.4.1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-math3;3.4.1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.apache.commons#commons-math3;3.4.1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.16 [compile->default(compile)]
+[info] Resolving org.slf4j#slf4j-api;1.7.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d92bac1
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.16
+[debug] 	found org.slf4j#slf4j-api;1.7.16 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.16 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.16 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#slf4j-api;1.7.16 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->default(compile)]
+[info] Resolving org.slf4j#jul-to-slf4j;1.7.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35bfb67c
+[debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.16
+[debug] 	found org.slf4j#jul-to-slf4j;1.7.16 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#jul-to-slf4j;1.7.16 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->default(compile)]
+[info] Resolving org.slf4j#jcl-over-slf4j;1.7.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59c2f3ec
+[debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.16
+[debug] 	found org.slf4j#jcl-over-slf4j;1.7.16 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#jcl-over-slf4j;1.7.16 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.16 [compile->default(compile)]
+[info] Resolving org.slf4j#slf4j-log4j12;1.7.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5097ba15
+[info] Resolving org.slf4j#slf4j-log4j12;1.7.16 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@5097ba15
+[debug] 		tried /home/knodus/.ivy2/local/org.slf4j/slf4j-log4j12/1.7.16/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.slf4j#slf4j-log4j12;1.7.16
+[debug] 		tried https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.pom
+[debug] 	jcenter: found md file for org.slf4j#slf4j-log4j12;1.7.16
+[debug] 		=> https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.pom (1.7.16)
+[debug] downloading https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.pom
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-log4j12;1.7.16!slf4j-log4j12.pom(pom.original) (1566ms)
+[info] Resolving org.slf4j#slf4j-parent;1.7.16 ...
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.16 {}
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-parent;1.7.16
+[debug] 	found org.slf4j#slf4j-log4j12;1.7.16 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.16 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.16 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.slf4j#slf4j-log4j12;1.7.16 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.ning#compress-lzf;1.0.3 [compile->default(compile)]
+[info] Resolving com.ning#compress-lzf;1.0.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70a4ee48
+[debug] sbt-chain: module revision found in cache: com.ning#compress-lzf;1.0.3
+[debug] 	found com.ning#compress-lzf;1.0.3 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.ning#compress-lzf;1.0.3 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.ning#compress-lzf;1.0.3 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.ning#compress-lzf;1.0.3 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->default(compile)]
+[info] Resolving org.xerial.snappy#snappy-java;1.1.2.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fd2854b
+[debug] sbt-chain: module revision found in cache: org.xerial.snappy#snappy-java;1.1.2.4
+[debug] 	found org.xerial.snappy#snappy-java;1.1.2.4 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.xerial.snappy#snappy-java;1.1.2.4 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->net.jpountz.lz4#lz4;1.3.0 [compile->default(compile)]
+[info] Resolving net.jpountz.lz4#lz4;1.3.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b97116d
+[debug] sbt-chain: module revision found in cache: net.jpountz.lz4#lz4;1.3.0
+[debug] 	found net.jpountz.lz4#lz4;1.3.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->net.jpountz.lz4#lz4;1.3.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->net.jpountz.lz4#lz4;1.3.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->net.jpountz.lz4#lz4;1.3.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.roaringbitmap#RoaringBitmap;0.5.11 [compile->default(compile)]
+[info] Resolving org.roaringbitmap#RoaringBitmap;0.5.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3966771d
+[debug] sbt-chain: module revision found in cache: org.roaringbitmap#RoaringBitmap;0.5.11
+[debug] 	found org.roaringbitmap#RoaringBitmap;0.5.11 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.roaringbitmap#RoaringBitmap;0.5.11 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.roaringbitmap#RoaringBitmap;0.5.11 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.roaringbitmap#RoaringBitmap;0.5.11 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-net#commons-net;2.2 [compile->default(compile)]
+[info] Resolving commons-net#commons-net;2.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10607ec2
+[debug] sbt-chain: module revision found in cache: commons-net#commons-net;2.2
+[debug] 	found commons-net#commons-net;2.2 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-net#commons-net;2.2 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-net#commons-net;2.2 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->commons-net#commons-net;2.2 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45e9f279
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
+[debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.json4s#json4s-jackson_2.11;3.2.11 [compile->default(compile)]
+[info] Resolving org.json4s#json4s-jackson_2.11;3.2.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bf10421
+[debug] sbt-chain: module revision found in cache: org.json4s#json4s-jackson_2.11;3.2.11
+[debug] 	found org.json4s#json4s-jackson_2.11;3.2.11 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.json4s#json4s-jackson_2.11;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.json4s#json4s-jackson_2.11;3.2.11 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.json4s#json4s-jackson_2.11;3.2.11 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.json4s#json4s-core_2.11;3.2.11 [compile->default(compile)]
+[info] Resolving org.json4s#json4s-core_2.11;3.2.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@644a1fba
+[debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.11;3.2.11
+[debug] 	found org.json4s#json4s-core_2.11;3.2.11 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.json4s#json4s-core_2.11;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.json4s#json4s-core_2.11;3.2.11 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.json4s#json4s-core_2.11;3.2.11 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.json4s#json4s-ast_2.11;3.2.11 [compile->default(compile)]
+[info] Resolving org.json4s#json4s-ast_2.11;3.2.11 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70054176
+[debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.11;3.2.11
+[debug] 	found org.json4s#json4s-ast_2.11;3.2.11 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.json4s#json4s-ast_2.11;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.json4s#json4s-ast_2.11;3.2.11 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.json4s#json4s-ast_2.11;3.2.11 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->default(compile)]
+[info] Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@338b1ced
+[debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
+[debug] 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->com.thoughtworks.paranamer#paranamer;2.6 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scalap;2.11.0 [compile->default(compile)]
+[info] Resolving org.scala-lang#scalap;2.11.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29b660b7
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.11.0
+[debug] 	found org.scala-lang#scalap;2.11.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scalap;2.11.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scalap;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scalap;2.11.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.0 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f5c19fe
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.0
+[debug] 	found org.scala-lang#scala-compiler;2.11.0 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.0 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.0 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.0 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d37bd47
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.core#jersey-client;2.22.2 [compile->default(compile)]
+[info] Resolving org.glassfish.jersey.core#jersey-client;2.22.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14179ab0
+[info] Resolving org.glassfish.jersey.core#jersey-client;2.22.2 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@14179ab0
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey.core/jersey-client/2.22.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.glassfish.jersey.core#jersey-client;2.22.2
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
+[debug] 	jcenter: found md file for org.glassfish.jersey.core#jersey-client;2.22.2
+[debug] 		=> https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom (2.22.2)
+[debug] downloading https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
+[debug] 	[SUCCESSFUL ] org.glassfish.jersey.core#jersey-client;2.22.2!jersey-client.pom(pom.original) (1658ms)
+[info] Resolving org.glassfish.jersey#project;2.22.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.glassfish.jersey#project;2.22.2 {}
+[info] Resolving org.glassfish.jersey#project;2.22.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.glassfish.jersey#project;2.22.2 {}
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey/project/2.22.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.glassfish.jersey#project;2.22.2
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom
+[debug] 	jcenter: found md file for org.glassfish.jersey#project;2.22.2
+[debug] 		=> https://jcenter.bintray.com/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom (2.22.2)
+[debug] downloading https://jcenter.bintray.com/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom
+[debug] 	[SUCCESSFUL ] org.glassfish.jersey#project;2.22.2!project.pom(pom.original) (2855ms)
+[info] Resolving net.java#jvnet-parent;4 ...
+[debug] sbt-chain: Checking cache for: dependency: net.java#jvnet-parent;4 {}
+[debug] sbt-chain: module revision found in cache: net.java#jvnet-parent;4
+[info] Resolving org.glassfish.hk2#hk2-bom;2.4.0-b34 ...
+[debug] sbt-chain: Checking cache for: dependency: org.glassfish.hk2#hk2-bom;2.4.0-b34 {}
+[debug] sbt-chain: module revision found in cache: org.glassfish.hk2#hk2-bom;2.4.0-b34
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey/project/2.22.2/jars/project.jar
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/project/2.22.2/project-2.22.2.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/glassfish/jersey/project/2.22.2/project-2.22.2.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/glassfish/jersey/project/2.22.2/project-2.22.2.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/glassfish/jersey/project/2.22.2/project-2.22.2.jar
+[debug] 	found org.glassfish.jersey.core#jersey-client;2.22.2 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.core#jersey-client;2.22.2 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.core#jersey-client;2.22.2 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.core#jersey-client;2.22.2 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.ws.rs#javax.ws.rs-api;2.0.1 [compile->default(compile)]
+[info] Resolving javax.ws.rs#javax.ws.rs-api;2.0.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e8af009
+[debug] sbt-chain: module revision found in cache: javax.ws.rs#javax.ws.rs-api;2.0.1
+[debug] 	found javax.ws.rs#javax.ws.rs-api;2.0.1 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.ws.rs#javax.ws.rs-api;2.0.1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.ws.rs#javax.ws.rs-api;2.0.1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.ws.rs#javax.ws.rs-api;2.0.1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.core#jersey-common;2.22.2 [compile->default(compile)]
+[info] Resolving org.glassfish.jersey.core#jersey-common;2.22.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@459c626a
+[info] Resolving org.glassfish.jersey.core#jersey-common;2.22.2 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@459c626a
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey.core/jersey-common/2.22.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.glassfish.jersey.core#jersey-common;2.22.2
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.pom
+[debug] 	jcenter: found md file for org.glassfish.jersey.core#jersey-common;2.22.2
+[debug] 		=> https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.pom (2.22.2)
+[debug] downloading https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.pom
+[debug] 	[SUCCESSFUL ] org.glassfish.jersey.core#jersey-common;2.22.2!jersey-common.pom(pom.original) (1539ms)
+[info] Resolving org.glassfish.jersey#project;2.22.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.glassfish.jersey#project;2.22.2 {}
+[debug] sbt-chain: module revision found in cache: org.glassfish.jersey#project;2.22.2
+[debug] 	found org.glassfish.jersey.core#jersey-common;2.22.2 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.core#jersey-common;2.22.2 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.core#jersey-common;2.22.2 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.core#jersey-common;2.22.2 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.annotation#javax.annotation-api;1.2 [compile->default(compile)]
+[info] Resolving javax.annotation#javax.annotation-api;1.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28c7a67b
+[debug] sbt-chain: module revision found in cache: javax.annotation#javax.annotation-api;1.2
+[debug] 	found javax.annotation#javax.annotation-api;1.2 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.annotation#javax.annotation-api;1.2 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.annotation#javax.annotation-api;1.2 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.annotation#javax.annotation-api;1.2 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2 [compile->default(compile)]
+[info] Resolving org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@322b188a
+[info] Resolving org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@322b188a
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey.bundles.repackaged/jersey-guava/2.22.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
+[debug] 	jcenter: found md file for org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2
+[debug] 		=> https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom (2.22.2)
+[debug] downloading https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
+[debug] 	[SUCCESSFUL ] org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2!jersey-guava.pom(pom.original) (1548ms)
+[info] Resolving org.glassfish.jersey.bundles.repackaged#project;2.22.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.glassfish.jersey.bundles.repackaged#project;2.22.2 {}
+[info] Resolving org.glassfish.jersey.bundles.repackaged#project;2.22.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.glassfish.jersey.bundles.repackaged#project;2.22.2 {}
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey.bundles.repackaged/project/2.22.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.glassfish.jersey.bundles.repackaged#project;2.22.2
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
+[debug] 	jcenter: found md file for org.glassfish.jersey.bundles.repackaged#project;2.22.2
+[debug] 		=> https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom (2.22.2)
+[debug] downloading https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
+[debug] 	[SUCCESSFUL ] org.glassfish.jersey.bundles.repackaged#project;2.22.2!project.pom(pom.original) (2254ms)
+[info] Resolving org.glassfish.jersey.bundles#project;2.22.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.glassfish.jersey.bundles#project;2.22.2 {}
+[info] Resolving org.glassfish.jersey.bundles#project;2.22.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.glassfish.jersey.bundles#project;2.22.2 {}
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey.bundles/project/2.22.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.glassfish.jersey.bundles#project;2.22.2
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom
+[debug] 	jcenter: found md file for org.glassfish.jersey.bundles#project;2.22.2
+[debug] 		=> https://jcenter.bintray.com/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom (2.22.2)
+[debug] downloading https://jcenter.bintray.com/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom
+[debug] 	[SUCCESSFUL ] org.glassfish.jersey.bundles#project;2.22.2!project.pom(pom.original) (1476ms)
+[info] Resolving org.glassfish.jersey#project;2.22.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.glassfish.jersey#project;2.22.2 {}
+[debug] sbt-chain: module revision found in cache: org.glassfish.jersey#project;2.22.2
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey.bundles/project/2.22.2/jars/project.jar
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.jar
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey.bundles.repackaged/project/2.22.2/jars/project.jar
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.jar
+[debug] 	found org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.bundles.repackaged#jersey-guava;2.22.2 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#hk2-api;2.4.0-b34 [compile->default(compile)]
+[info] Resolving org.glassfish.hk2#hk2-api;2.4.0-b34 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62fab0d2
+[debug] sbt-chain: module revision found in cache: org.glassfish.hk2#hk2-api;2.4.0-b34
+[debug] 	found org.glassfish.hk2#hk2-api;2.4.0-b34 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#hk2-api;2.4.0-b34 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#hk2-api;2.4.0-b34 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#hk2-api;2.4.0-b34 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->default(compile)]
+[info] Resolving org.glassfish.hk2#hk2-utils;2.4.0-b34 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@612061c8
+[debug] sbt-chain: module revision found in cache: org.glassfish.hk2#hk2-utils;2.4.0-b34
+[debug] 	found org.glassfish.hk2#hk2-utils;2.4.0-b34 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#hk2-utils;2.4.0-b34 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->default(compile)]
+[info] Resolving org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e7587bb
+[debug] sbt-chain: module revision found in cache: org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34
+[debug] 	found org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2.external#aopalliance-repackaged;2.4.0-b34 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2.external#javax.inject;2.4.0-b34 [compile->default(compile)]
+[info] Resolving org.glassfish.hk2.external#javax.inject;2.4.0-b34 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1aaf00bf
+[debug] sbt-chain: module revision found in cache: org.glassfish.hk2.external#javax.inject;2.4.0-b34
+[debug] 	found org.glassfish.hk2.external#javax.inject;2.4.0-b34 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2.external#javax.inject;2.4.0-b34 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2.external#javax.inject;2.4.0-b34 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2.external#javax.inject;2.4.0-b34 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#hk2-locator;2.4.0-b34 [compile->default(compile)]
+[info] Resolving org.glassfish.hk2#hk2-locator;2.4.0-b34 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b9f5c55
+[debug] sbt-chain: module revision found in cache: org.glassfish.hk2#hk2-locator;2.4.0-b34
+[debug] 	found org.glassfish.hk2#hk2-locator;2.4.0-b34 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#hk2-locator;2.4.0-b34 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#hk2-locator;2.4.0-b34 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#hk2-locator;2.4.0-b34 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.javassist#javassist;3.18.1-GA [compile->default(compile)]
+[info] Resolving org.javassist#javassist;3.18.1-GA ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f133063
+[debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.18.1-GA
+[debug] 	found org.javassist#javassist;3.18.1-GA in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.javassist#javassist;3.18.1-GA [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.javassist#javassist;3.18.1-GA [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.javassist#javassist;3.18.1-GA [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#osgi-resource-locator;1.0.1 [compile->default(compile)]
+[info] Resolving org.glassfish.hk2#osgi-resource-locator;1.0.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fc7810
+[debug] sbt-chain: module revision found in cache: org.glassfish.hk2#osgi-resource-locator;1.0.1
+[debug] 	found org.glassfish.hk2#osgi-resource-locator;1.0.1 in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#osgi-resource-locator;1.0.1 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#osgi-resource-locator;1.0.1 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.hk2#osgi-resource-locator;1.0.1 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.core#jersey-server;2.22.2 [compile->default(compile)]
+[info] Resolving org.glassfish.jersey.core#jersey-server;2.22.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b44f564
+[info] Resolving org.glassfish.jersey.core#jersey-server;2.22.2 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3b44f564
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey.core/jersey-server/2.22.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.glassfish.jersey.core#jersey-server;2.22.2
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.pom
+[debug] 	jcenter: found md file for org.glassfish.jersey.core#jersey-server;2.22.2
+[debug] 		=> https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.pom (2.22.2)
+[debug] downloading https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.pom
+[debug] 	[SUCCESSFUL ] org.glassfish.jersey.core#jersey-server;2.22.2!jersey-server.pom(pom.original) (1504ms)
+[info] Resolving org.glassfish.jersey#project;2.22.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.glassfish.jersey#project;2.22.2 {}
+[debug] sbt-chain: module revision found in cache: org.glassfish.jersey#project;2.22.2
+[debug] 	found org.glassfish.jersey.core#jersey-server;2.22.2 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.core#jersey-server;2.22.2 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.core#jersey-server;2.22.2 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.core#jersey-server;2.22.2 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.media#jersey-media-jaxb;2.22.2 [compile->default(compile)]
+[info] Resolving org.glassfish.jersey.media#jersey-media-jaxb;2.22.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c74704
+[info] Resolving org.glassfish.jersey.media#jersey-media-jaxb;2.22.2 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@3c74704
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey.media/jersey-media-jaxb/2.22.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.glassfish.jersey.media#jersey-media-jaxb;2.22.2
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.pom
+[debug] 	jcenter: found md file for org.glassfish.jersey.media#jersey-media-jaxb;2.22.2
+[debug] 		=> https://jcenter.bintray.com/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.pom (2.22.2)
+[debug] downloading https://jcenter.bintray.com/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.pom
+[debug] 	[SUCCESSFUL ] org.glassfish.jersey.media#jersey-media-jaxb;2.22.2!jersey-media-jaxb.pom(pom.original) (1515ms)
+[info] Resolving org.glassfish.jersey.media#project;2.22.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.glassfish.jersey.media#project;2.22.2 {}
+[info] Resolving org.glassfish.jersey.media#project;2.22.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.glassfish.jersey.media#project;2.22.2 {}
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey.media/project/2.22.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.glassfish.jersey.media#project;2.22.2
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom
+[debug] 	jcenter: found md file for org.glassfish.jersey.media#project;2.22.2
+[debug] 		=> https://jcenter.bintray.com/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom (2.22.2)
+[debug] downloading https://jcenter.bintray.com/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom
+[debug] 	[SUCCESSFUL ] org.glassfish.jersey.media#project;2.22.2!project.pom(pom.original) (1579ms)
+[info] Resolving org.glassfish.jersey#project;2.22.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.glassfish.jersey#project;2.22.2 {}
+[debug] sbt-chain: module revision found in cache: org.glassfish.jersey#project;2.22.2
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey.media/project/2.22.2/jars/project.jar
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.jar
+[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.jar
+[debug] 	found org.glassfish.jersey.media#jersey-media-jaxb;2.22.2 in jcenter
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.media#jersey-media-jaxb;2.22.2 [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.media#jersey-media-jaxb;2.22.2 [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.media#jersey-media-jaxb;2.22.2 [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.validation#validation-api;1.1.0.Final [compile->default(compile)]
+[info] Resolving javax.validation#validation-api;1.1.0.Final ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@940c8d5
+[debug] sbt-chain: module revision found in cache: javax.validation#validation-api;1.1.0.Final
+[debug] 	found javax.validation#validation-api;1.1.0.Final in sbt-chain
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.validation#validation-api;1.1.0.Final [compile->runtime]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.validation#validation-api;1.1.0.Final [compile->compile]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->javax.validation#validation-api;1.1.0.Final [compile->master]
+[debug] == resolving dependencies default#spark-assignment$sources_2.11;1.0->org.glassfish.jersey.containers#jersey-container-servlet;2.22.2 [compile->default(compile)]
+[info] Resolving org.glassfish.jersey.containers#jersey-container-servlet;2.22.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4aa14638
+[info] Resolving org.glassfish.jersey.containers#jersey-container-servlet;2.22.2 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@4aa14638
+[debug] 		tried /home/knodus/.ivy2/local/org.glassfish.jersey.containers/jersey-container-servlet/2.22.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.glassfish.jersey.containers#jersey-container-servlet;2.22.2
+[debug] 		tried https://jcenter.bintray.com/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.pom
+[debug] 	jcenter: found md file for org.glassfish.jersey.containers#jersey-container-servlet;2.22.2
+[debug] 		=> https://jcenter.bintray.com/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.pom (2.22.2)
+[debug] downloading https://jcenter.bintray.com/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.pom ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.pom
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.pom.sha1
